@@ -32,7 +32,334 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.home {
+  height: 900px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.userIcon {
+  width: 35px;
+  height: 30px;
+  position: fixed;
+  z-index: 1000;
+  left: 370px;
+  top: 20px;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  height: 70px;
+  font-family: cursive;
+  display: flex;
+}
+
+.navH1 {
+  position: fixed;
+  top: 10px;
+  right: 150px;
+  z-index: 999;
+  color: rgb(172, 171, 177);
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 44px;
+}
+
+.navH {
+  position: fixed;
+  top: 10px;
+  right: 270px;
+  z-index: 999;
+  color: rgb(60, 9, 247);
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 44px;
+}
+
+.logo {
+  height: 60px;
+  width: 75px;
+  position: fixed;
+  z-index: 1000;
+  right: 380px;
+  top: 5px;
+}
+
+.homeH1 {
+  text-align: center;
+  color: aliceblue;
+  font-family: cursive;
+  height: 900px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  background-image: url(https://scontent.fevn12-1.fna.fbcdn.net/v/t39.30808-6/272338248_2687185338094786_264658517742092390_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=V_VtRDgwTK0AX86MFk1&_nc_ht=scontent.fevn12-1.fna&oh=00_AT_GUctoZEZMquqwD-jOs47Uqsk3uLipOQ6DRY5_cAAaUg&oe=625B7E95);
+}
+
+.vernagir {
+  color: #f4f6fa;
+  margin-top: 200px;
+  font-size: 120px;
+}
+
+.xosq {
+  font-size: 70px;
+  color: #f4f6fa;
+
+}
+
+.registration {
+  font-family: cursive;
+  height: 900px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  background-image: url(https://scontent.fevn12-1.fna.fbcdn.net/v/t39.30808-6/272657865_2687185431428110_241191663322197529_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=JeDEDpH7F6UAX_WVmAh&_nc_ht=scontent.fevn12-1.fna&oh=00_AT-dqoxLaKuqaNWe5y2ij7PZ4Z7wUTix5qYYqZ4eZBDpbA&oe=625BFDCD);
+}
+
+.regMenu {
+  font-family: cursive;
+  margin-top: 150px;
+}
+
+
+.signin {
+  font-family: cursive;
+  margin-top: 150px;
+}
+
+.signinBG {
+  height: 900px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  background-image: url(https://scontent.fevn12-1.fna.fbcdn.net/v/t39.30808-6/273578597_2700633290083324_528374375585416223_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=beYJpqBni1IAX96kqZP&tn=RvJr9qLP0RHCYSNy&_nc_ht=scontent.fevn12-1.fna&oh=00_AT_A33t4pV9vBxWmjVnqJ8tBmCbMBxS_w3XW8JnMN87Ogw&oe=625B7074);
+}
+
+.profile {
+  font-family: cursive;
+  text-align: center;
+  color: aliceblue;
+  height: 900px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  background-image: url(https://scontent.fevn12-1.fna.fbcdn.net/v/t39.30808-6/272321535_2687161081430545_3154310685131045804_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_ohc=nF2eaxwDwUkAX_9l8Eg&_nc_ht=scontent.fevn12-1.fna&oh=00_AT9jZsZyhOaiiaavv2qREJO9VYkV7qslgHAOTY8LYqbQXA&oe=625B781A);
+}
+
+.profileH1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 80px;
+  color: aliceblue;
+}
+
+.profButton {
+  position: fixed;
+  z-index: 1000;
+  left: 375px;
+  top: 30px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.linkbutton {
+  text-align: center;
+}
+
+.logout {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.addProd {
+  margin-top: 150px;
+
+}
+
+.addProdBg {
+  background-image: url(https://scontent.fevn12-1.fna.fbcdn.net/v/t39.30808-6/268786471_2653574288122558_5964313213513973540_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=rWejFi04NZkAX9xqEgv&_nc_oc=AQkBzXF_jY8YBN1s1Um13L-qbhFIDiz8Fykbvsiw25swhi-1e3Bu0RgI5lBZYel2TRc&tn=RvJr9qLP0RHCYSNy&_nc_ht=scontent.fevn12-1.fna&oh=00_AT8h-hCmi16V1qJFBjE-9Tz4QtR05JxNdrKd8KhCcdxMBQ&oe=625ABFC2);
+  height: 900px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  font-family: cursive;
+}
+
+.myProduct {
+  font-family: cursive;
+  background-image: url(https://i.pinimg.com/originals/41/8e/d4/418ed4d3b26fe7ff47257f07f8ab440e.jpg);
+  height: 900px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.table {
+  width: 385px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.prodInfo {
+  background-image: url(https://wallpaperaccess.com/full/3256758.jpg);
+  height: 900px;
+  font-family: cursive;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.prodH1 {
+  color: aliceblue;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.prodH3 {
+  text-align: center;
+  color: aliceblue;
+
+}
+
+.allProd {
+  background-image: url(https://wallpaperaccess.com/full/3256758.jpg);
+  height: 900px;
+  font-family: cursive;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.tb {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+
+}
+
+.card {
+  background-image: url(https://preview.redd.it/czi0oawj8y561.png?auto=webp&s=afc372ffab6b28e014056f32b1120fd5593cd4d0);
+  height: 900px;
+  font-family: cursive;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.cardT {
+  margin: auto;
+  margin-top: 30px;
+  width: 50%;
+}
+
+.CardH1 {
+  text-align: center;
+  margin-bottom: 450px;
+  color: rgb(225, 4, 4);
+}
+
+.b1 {
+  margin: auto;
+  width: 120px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.order {
+  background-image: url(https://scontent.fevn6-3.fna.fbcdn.net/v/t39.30808-6/241577764_2569263113220343_8307068918310297181_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=XrNo7AW981EAX_wDuPo&_nc_ht=scontent.fevn6-3.fna&oh=00_AT9K0ORG3EkMPr9M7O-VKNotnpBdEh_XSmH_gTzPxb91uA&oe=625C80DC);
+  height: 900px;
+  font-family: cursive;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.ordH3 {
+  color: aliceblue;
+  background-color: #212529;
+  width: 50%;
+  height: 20%;
+  margin: auto;
+  text-align: center;
+}
+
+.chat {
+  background-image: url(https://i.redd.it/o11kpblfj1x41.png);
+  height: 900px;
+  font-family: cursive;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.chatButton {
+  position: fixed;
+  z-index: 1889;
+  bottom: 55px;
+  right: 72px;
+  color: aliceblue;
+  width: 48px;
+  background-color: transparent;
+  border: none;
+}
+
+.message {
+  position: fixed;
+  z-index: 1889;
+  bottom: 38px;
+  right: 68px;
+  height: 50px;
+  width: 55px;
+}
+
+.details {
+  background-image: url(https://cdn.wallpapersafari.com/85/38/KClLY1.jpg);
+  height: 900px;
+  font-family: cursive;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.detailBG {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #6EC7D4;
+  border-radius: 10%;
+  color: #212529;
+  border: solid 2px aliceblue;
+  width: 430px;
+  height: 330px;
+}
+
+.pay {
+  margin: auto;
 }
